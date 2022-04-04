@@ -42,7 +42,7 @@ a {
 }
 
 .content > h2 {
-  font-size: 40px;
+  font-size: 35px;
 }
 .timer {
   margin: 2rem 0;
@@ -54,6 +54,17 @@ a {
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
+}
+
+.content > div {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.content > div > img {
+  width: 40px;
+  height: 40px;
 }
 
 .bottom {
