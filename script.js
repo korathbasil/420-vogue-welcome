@@ -43,16 +43,16 @@ function displayTimerPart(part, value) {
 function start() {
     setTimeout(() => {
         contentH2One.style.opacity = 1;
-    }, 400);
+    }, 500);
     setTimeout(() => {
         timer.style.opacity = 1;
-    }, 700);
-    setTimeout(() => {
-        contentH2Two.style.opacity = 1;
     }, 900);
     setTimeout(() => {
+        contentH2Two.style.opacity = 1;
+    }, 1250);
+    setTimeout(() => {
         contentBottomDiv.style.opacity = 1;
-    }, 1000);
+    }, 1550);
 }
 
 start()
