@@ -43,6 +43,8 @@ a {
 
 .content > h2 {
   font-size: 35px;
+  opacity: 0;
+  transition: opacity 0.5s ease-in;
 }
 .timer {
   margin: 2rem 0;
@@ -54,12 +56,18 @@ a {
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
+
+  opacity: 0;
+  transition: opacity 0.5s ease-in;
 }
 
 .content > div {
   display: flex;
   align-items: center;
   margin-top: 20px;
+
+  opacity: 0;
+  transition: opacity 0.5s ease-in;
 }
 
 .content > div > img {
