@@ -9,7 +9,7 @@ const contentH2Two = document.getElementById("content-h2-2");
 const contentBottomDiv = document.getElementById("content-bottom-div");
 
 
-const target = new Date('April 20, 2022 00:00:00')
+const target = new Date('April 25, 2022 00:00:00')
 
 setInterval(() => {
     calculateAndDisplayTimer(Date.now())
